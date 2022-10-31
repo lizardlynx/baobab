@@ -3,14 +3,14 @@ Branch:                  2021.3/staging
 Build type:              Release
 Batch mode:              YES
 System name:             Linux
-Distro version:          #56-Ubuntu SMP Tue Sep 20 13:23:26 UTC 2022
-Kernel version:          5.15.0-50-generic
+Distro version:          #58-Ubuntu SMP Thu Oct 13 08:03:55 UTC 2022
+Kernel version:          5.15.0-52-generic
 Architecture:            x86_64
 Available memory:        15871 MB
 Using pre-set license
 Pro License: YES
 
-(Unity:13895): Gdk-CRITICAL **: 17:57:51.244: gdk_window_get_cursor: assertion 'GDK_IS_WINDOW (window)' failed
+(Unity:32250): Gdk-CRITICAL **: 13:55:23.473: gdk_window_get_cursor: assertion 'GDK_IS_WINDOW (window)' failed
 Desktop is 1920 x 1080 @ 60 Hz
 Initialize udev device monitor.
 
@@ -26,7 +26,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-39297
+34281
 Successfully changed project path to: /home/liza/dz/unity/baobab
 /home/liza/dz/unity/baobab
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -58,8 +58,7 @@ Successfully changed project path to: /home/liza/dz/unity/baobab
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Unable to load player prefs
-Refreshing native plugins compatible for Editor in 216,17 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 100,88 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Initialize engine version: 2021.3.10f1 (1c7d0df0160b)
 [Subsystems] Discovering subsystems at path /home/liza/apps/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Resources/UnitySubsystems
@@ -75,94 +74,94 @@ int_sprite GL_ARB_polygon_offset_clamp GL_ARB_post_depth_coverage GL_ARB_program
 L_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_filter_anisotropic GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewpor
 t_array GL_ATI_blend_equation_separate GL_ATI_texture_float GL_EXT_EGL_image_storage GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_demote_to_helper_invocation GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_framebuffer_fetch GL_EXT_shader_framebuffer_fetch_non_coherent GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_t
 exture_snorm GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_INTEL_conservative_rasterization GL_INTEL_performance_query GL_INTEL_shader_atomic_float_minmax GL_INTEL_shader_integer_functions2 GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_signed_rgba GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_fragment_shader_interlock GL_NV_packed_depth_stencil GL_NV_texture_barrier GL_OES_EGL_image GL_S3_s3tc
-OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle -2094858256
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle -55035088
 Initialize mono
 Mono path[0] = '/home/liza/apps/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Managed'
 Mono path[1] = '/home/liza/apps/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
 Mono config path = '/home/liza/apps/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56895
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56250
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /home/liza/apps/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0,007035 seconds.
+Registered in 0,005040 seconds.
 Native extension for LinuxStandalone target not found
-Refreshing native plugins compatible for Editor in 167,11 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 99,13 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0,999 seconds
+- Completed reload, in  0,631 seconds
 Domain Reload Profiling:
-	ReloadAssembly (999ms)
-		BeginReloadAssembly (71ms)
+	ReloadAssembly (632ms)
+		BeginReloadAssembly (52ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (770ms)
-			LoadAssemblies (68ms)
+		EndReloadAssembly (472ms)
+			LoadAssemblies (50ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (156ms)
+			SetupTypeCache (99ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (60ms)
-			SetupLoadedEditorAssemblies (462ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (280ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (167ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (211ms)
-				ProcessInitializeOnLoadMethodAttributes (67ms)
+				RefreshPlugins (99ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (128ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0,006276 seconds.
+Registered in 0,004768 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /home/liza/dz/unity/baobab/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /home/liza/dz/unity/baobab/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for LinuxStandalone target not found
-Refreshing native plugins compatible for Editor in 137,67 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 98,88 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1,590 seconds
+- Completed reload, in  1,038 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1591ms)
-		BeginReloadAssembly (120ms)
+	ReloadAssembly (1039ms)
+		BeginReloadAssembly (80ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (23ms)
-		EndReloadAssembly (1297ms)
-			LoadAssemblies (73ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (856ms)
+			LoadAssemblies (48ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (341ms)
+			SetupTypeCache (218ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (84ms)
-			SetupLoadedEditorAssemblies (705ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (475ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (138ms)
-				BeforeProcessingInitializeOnLoad (130ms)
-				ProcessInitializeOnLoadAttributes (361ms)
-				ProcessInitializeOnLoadMethodAttributes (61ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				RefreshPlugins (99ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (242ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0,95 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0,69 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0,00 ms.
 Unloading 4068 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 44 unused Assets / (144,0 KB). Loaded Objects now: 4518.
-Memory consumption went from 146,9 MB to 146,7 MB.
-Total: 6,644529 ms (FindLiveObjects: 0,408546 ms CreateObjectMapping: 0,344461 ms MarkObjects: 5,473476 ms  DeleteObjects: 0,416310 ms)
+Memory consumption went from 146,9 MB to 146,8 MB.
+Total: 3,880419 ms (FindLiveObjects: 0,332256 ms CreateObjectMapping: 0,243204 ms MarkObjects: 3,098914 ms  DeleteObjects: 0,204911 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -175,25 +174,13 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 449,568039 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c23e514d24f6b65fe96946cd87fc526') in 0,008054 seconds 
+  Time since last request: 13521,321514 seconds.
+  path: Assets/Resourses/Players/5000_player/knockback/knockback-2.gif
+  artifactKey: Guid(ea20acdb939e8379387520694b8ca28c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resourses/Players/5000_player/knockback/knockback-2.gif using Guid(ea20acdb939e8379387520694b8ca28c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3c138a3187358a3153e05c74e9e2af9') in 0,077763 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0,000024 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e24c38ded777c6eac716cf6ee885caa1') in 0,000941 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1217,114014 seconds.
-  path: Assets/Resourses/Backgrounds/3000/3000_level_1/background2.png
-  artifactKey: Guid(ce8476ad1d22e3125b1a3d6a26f899a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resourses/Backgrounds/3000/3000_level_1/background2.png using Guid(ce8476ad1d22e3125b1a3d6a26f899a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7c9656c2f2fefe3986e0b27af5d86a5') in 0,159189 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0,000030 seconds.
-  path: Assets/Resourses/Backgrounds/3000/3000_level_1/trees.png
-  artifactKey: Guid(05e8fe4ff2343195abf25d4479c85e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resourses/Backgrounds/3000/3000_level_1/trees.png using Guid(05e8fe4ff2343195abf25d4479c85e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad9a1a1684f1d8b34a1fb0f989148c30') in 0,041161 seconds 
+  Time since last request: 0,000023 seconds.
+  path: Assets/Resourses/Players/5000_player/knockback/knockback-0.gif
+  artifactKey: Guid(6354e8a05bc151f38a7449473dd60c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resourses/Players/5000_player/knockback/knockback-0.gif using Guid(6354e8a05bc151f38a7449473dd60c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fec70ea09d5f531cedd2fc2dba5072bd') in 0,035828 seconds 
