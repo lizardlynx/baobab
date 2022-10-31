@@ -58,8 +58,6 @@ public class PlayerController : MonoBehaviour
     }
     private void Run()
     {
-        Debug.Log("Run");
-        Debug.Log(isGrounded);
         if (isGrounded) State = HeroStates.Run;
 
         Vector3 dir = transform.right * Input.GetAxis("Horizontal");
@@ -68,6 +66,7 @@ public class PlayerController : MonoBehaviour
     }
     private void Jump()
     {
+        State = HeroStates.Jump;
         rb.velocity = Vector2.up * jumpForce;
     }
     private void FixedUpdate()
