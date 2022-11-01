@@ -38,7 +38,6 @@ public class PlayerController : StatefulBehaviour
 
     void UpdateState()
     {
-        Debug.Log("Update State");
         if (GetState<States>() != States.Attack && isGrounded) SetState(States.Idle);
         if (Input.GetButton("Horizontal")) Run();
         if (isGrounded && Input.GetButtonDown("Jump")) Jump();
