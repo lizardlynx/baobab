@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class Enemy : StatefulBehaviour
 {
     public int maxHealth = 100;
-    public Transform player = null;
+    [SerializeField] Transform player = null;
     public int range = 300;
     private int currentHealth;
     protected enum States : int
@@ -36,23 +36,30 @@ public class Enemy : StatefulBehaviour
             SetState(States.Waiting);
         else if (Vector2.Distance(transform.position, player.position) > range)
             SetState(States.Idle);
-
-        if (GetState<States>() == States.Hit)
-            StartCoroutine(OnAnimationComplete("Hit", () => SetState(States.Idle))); //TODO
-        else if (GetState<States>() == States.Death)
-            StartCoroutine(OnAnimationComplete("Death", () => {
-                Destroy(gameObject);
-                SceneManager.LoadScene("3000_level_1");
-            })); //TODO
+ 
     }
 
     public void GetHit(int damage)
     {
         currentHealth -= damage;
-        
-        if (currentHealth <= 0)
-            SetState(States.Death);
-        else
-            SetState(States.Hit);
+
+        if (currentHealth <= 0) Death();
+        else TakeDamage();
+
+    }
+
+    public void TakeDamage()
+    {
+        SetState(States.Hit);
+        StartCoroutine(OnAnimationComplete("Hit", () => SetState(States.Idle)));
+    }
+
+    public void Death()
+    {
+        SetState(States.Death);
+        StartCoroutine(OnAnimationComplete("Death", () => {
+            Destroy(gameObject);
+            SceneManager.LoadScene("3000_level_1");
+        }));
     }
 }
