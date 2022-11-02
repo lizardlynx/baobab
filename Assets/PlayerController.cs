@@ -38,15 +38,10 @@ public class PlayerController : StatefulBehaviour
 
     void UpdateState()
     {
-        Debug.Log("Update State");
         if (GetState<States>() != States.Attack && isGrounded) SetState(States.Idle);
         if (Input.GetButton("Horizontal")) Run();
         if (isGrounded && Input.GetButtonDown("Jump")) Jump();
-        if (Input.GetButtonDown("Fire1")) 
-        {
-            Attack();
-            StartCoroutine(OnAnimationComplete("Attack", () => SetState(States.Idle)));
-        }
+        if (Input.GetButtonDown("Fire1")) Attack();
     }
 
     // Update is called once per frame
@@ -89,6 +84,7 @@ public class PlayerController : StatefulBehaviour
     private void Attack()
     {
         SetState(States.Attack);
+        StartCoroutine(OnAnimationComplete("Attack", () => SetState(States.Idle)));
     }
     
 }
