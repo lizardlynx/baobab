@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Weapon : MonoBehaviour
 {
+    public int attackDamage = 40;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,8 +22,9 @@ public class Weapon : MonoBehaviour
         GameObject enemy = col.gameObject;
         if (enemy.tag == "Enemy")
         {
+            Debug.Log("Hit trigger");
             Enemy script = enemy.GetComponent<Enemy>();
-            script.GetHit();
+            script.GetHit(attackDamage);
         }
     }
 }
